@@ -1,0 +1,25 @@
+
+
+/* Header*/
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nav-links*/
+.navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li{
+    display: inline;
+    margin-top: 20px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+}
