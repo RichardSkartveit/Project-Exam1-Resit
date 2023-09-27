@@ -2,7 +2,7 @@
 
 /* Header*/
 .header {
-    background-color: #ffffff;
+    background-color: #e8e6e6;
     color: #d07171;
     text-align: center;
     padding: 20px;
@@ -22,4 +22,65 @@
 .navigation a{
     text-decoration: none;
     color: #5f4e4e;
+}
+
+/* Home-page*/
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-image {
+    max-width: 30%;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+.text-rigth {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 15%;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footer p{
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
 }
