@@ -1,31 +1,42 @@
 
 
-/* Header*/
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
 .header {
-    background-color: #e8e6e6;
-    color: #d07171;
+    background-color: #5f4e4e;
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-/* Nav-links*/
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
 .navigation {
     list-style-type: none;
     padding: 0;
 }
 
-.navigation li{
+.navigation li {
     display: inline;
-    margin-top: 20px;
+    margin-right: 20px;
 }
 
-.navigation a{
+.navigation a {
     text-decoration: none;
-    color: #5f4e4e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-/* Home-page*/
-
+/* Home Page Content */
 .content {
     display: flex;
     align-items: center;
@@ -33,22 +44,21 @@
 }
 
 .left-image {
-    max-width: 30%;
+    max-width: 40%;
     margin-right: 20px;
-    margin-top: 50px;
 }
 
-
-.text-rigth {
+.text-right {
     flex-grow: 1;
-    margin-left: 20px;
 }
 
-.content {
-    text-align: center;
-    padding: 20px;
+.text-right h2 {
+    font-size: 1.5rem;
+    color: #df0909;
+    margin-bottom: 20px;
 }
 
+/* Recipe Section */
 .section {
     text-align: center;
     padding: 20px;
@@ -59,33 +69,53 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .image {
+    flex-basis: 30%;
     margin: 10px;
     text-align: center;
 }
 
-.image img {
-    max-width: 15%;
+/* Add styles for the recipe box */
+.recipe-box {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1f1b1b;
+    transition: transform 0.2s;
 }
 
+.recipe-box:hover {
+    transform: scale(1.03);
+}
+
+.recipe-box img {
+    max-width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-box h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #2bc985;
+    color: #38a861;
     padding: 20px;
     text-align: center;
 }
 
 .footer h2 {
     font-size: 1.5rem;
-    text-align: center;
 }
-.footer p{
+
+.footer p {
     font-size: 1rem;
     margin-top: 10px;
-    text-align: center;
 }
-
-
 /* QandA page */
 
 body{
@@ -236,4 +266,168 @@ p {
 
 .gif-image {
     margin-top: 20px;
+}
+
+/* About page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.owner {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.owner:hover {
+    transform: scale(1.05);
+}
+
+.owner img {
+    max-width: 100%;
+    border-radius: 50%; 
+    margin: 10px auto;
+    display: block;
+}
+
+.owner h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.owner p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+
+footer p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Recipes page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.recipe:hover {
+    transform: scale(1.03);
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.recipe h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.recipe p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+/* Add hover effect to the footer message */
+footer p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #832323;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 50%;
 }
