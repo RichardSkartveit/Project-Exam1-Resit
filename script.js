@@ -5,7 +5,7 @@ fetch(apiUrl)
     .then(posts => {
         const postList = document.getElementById('post-list');
 
-        // Loop through each post and create an HTML element for it
+        
         posts.forEach(post => {
             const postElement = document.createElement('div');
             postElement.classList.add('post');
