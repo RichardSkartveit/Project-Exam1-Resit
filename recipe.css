@@ -93,3 +93,12 @@ footer p:hover {
     background-color: #171717; 
     color: #fff;
 }
+
+#recipeSearch {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
