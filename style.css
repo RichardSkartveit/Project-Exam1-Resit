@@ -1,14 +1,15 @@
 
-
-body, h1, h2, h3, p, ul, li {
+/* Body */
+body {
     margin: 0;
     padding: 0;
-}
+    font-family: Arial, sans-serif;
+    background-color: #D2B48C; /* Light brown background color */
+    color: #333; /* Dark text color */
 
 /* Header */
 .header {
-    background-color: #5f4e4e;
-    color: #fff;
+    background-color: #D2B48C; /* Light brown background color */
     text-align: center;
     padding: 20px;
 }
@@ -16,6 +17,7 @@ body, h1, h2, h3, p, ul, li {
 .header h1 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #fff; /* White text color */
 }
 
 /* Navigation */
@@ -33,7 +35,7 @@ body, h1, h2, h3, p, ul, li {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Home Page Content */
@@ -44,7 +46,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 .left-image {
-    max-width: 40%;
+    max-width: 30%;
     margin-right: 20px;
 }
 
@@ -54,9 +56,60 @@ body, h1, h2, h3, p, ul, li {
 
 .text-right h2 {
     font-size: 1.5rem;
-    color: #df0909;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
 }
+
+/* Recipe Section */
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex-basis: 10%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.recipe-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff; 
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: transform 0.2s;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+.recipe-box:hover {
+    transform: scale(1.03);
+}
+
+.recipe-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-box h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+f
 
 /* Recipe Section */
 .section {

@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D2B48C;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D2B48C;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.recipe {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.recipe:hover {
+    transform: scale(1.03);
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.recipe h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.recipe p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #D2B48C;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+/* Add hover effect to the footer message */
+footer p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-logo {
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #D2B48C; 
+    color: #333; 
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1; 
+}
+
+.home-logo:hover {
+    background-color: #171717; 
+    color: #fff;
+}
