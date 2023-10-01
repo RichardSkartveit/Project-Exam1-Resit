@@ -3,38 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe Menu</title>
     <link href="recipe.css" rel="stylesheet">
-    
 </head>
 <body>
-
     <header>
-        <h2>This week recipes! enjoy you lovely people.</h2>
+        <h2>This week recipes!<br>or search from previous weeks.</h2>
         <li><a href="/index.html" class="home-logo"> Home </a></li>
     </header>
+    <div id="link-container"></div>
+    <nav id="menu">
+        <select id="menu-dropdown">
+            <option value="">Select a Page</option>
+            <option value="page1">Butternut Squash RisottoSep</option>
+            <option value="page2">Coconut Millet Bowl with Berbere Spiced Squash</option>
+            <option value="page1">Chipotle Portobello Mushroom Tacos (Vegan!)</option>
+            <option value="page2">Cabbage Stir Fry</option>
+            <option value="page1">Whole Roasted Cauliflower with Tahini Sauce</option>
+            <option value="page2">Crispy BBQ Tofu Sandwich with Slaw</option>
+            <option value="page1">Vegetable Biryani</option>
+            <option value="page2">Coconut Rice Bowls</option>
+            <option value="page1">Frankies! (aka Bombay Burritos)</option>
+            <option value="page2"> Lentil Bolognese</option>
+        </select>
+    </nav>
+    
 
-    <input type="text" id="recipeSearch" placeholder="Search recipes...">
-
+   
     <main>
-        <section class="recipe">
-            <h2>Monday: Heaven bowl</h2>
+        
+        <section class="recipe page" id="page1">
+            <h2>Monday: Heaven Bowl</h2>
             <img src="/images/x1.jpg" alt="Spaghetti Carbonara">
-            <p>A classic Tofu dish with eggs, corn, cucumber, pickled onions and lot's of more.</p>
+            <p>A classic Tofu dish with eggs, corn, cucumber, pickled onions and lots more.</p>
         </section>
 
-        <section class="recipe">
-            <h2>Tuesday: Rest party</h2>
+        <section class="recipe page" id="page2">
+            <h2>Tuesday: Rest Party</h2>
             <img src="/images/x2.jpg" alt="Grilled Chicken Salad">
             <p>A healthy salad with ingredients from last dinner, mixed greens, cherry tomatoes, and balsamic vinaigrette.</p>
         </section>
 
-        <section class="recipe">
-            <h2>Wednesday: Egg licous</h2>
+        <section class="recipe page" id="page3">
+            <h2>Wednesday: Egg-licious</h2>
             <img src="/images/x3.jpg" alt="Vegetable Stir-Fry">
-            <p>A quick and easy salted bread with assorted vegetables, egg, and a green leafs.</p>
+            <p>A quick and easy salted bread with assorted vegetables, egg, and green leaves.</p>
         </section>
-
         <section class="recipe">
             <h2>Thursday: Leaf mystery</h2>
             <img src="/images/x4.jpg" alt="Baked Salmon">
@@ -46,15 +60,26 @@
             <img src="/images/x5.jpg" alt="Margherita Pizza">
             <p>A classic avocado bowl with nuts, fresh lime, basil, and a drizzle of olive oil.</p>
         </section>
-    </main>
 
-    
-    
+      
+    </main>
+    <nav id="menu">
+        <a href="https://goodfoodmood0.wpcomstaging.com/butternut-squash-risottosep-30th-2023/" class="menu-item" data-page="page1">Butternut Squash RisottoSep</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/coconut-millet-bowl-with-berbere-spiced-squash/" class="menu-item" data-page="page2">Coconut Millet Bowl with Berbere Spiced Squash</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/chipotle-portobello-mushroom-tacos-vegan/" class="menu-item" data-page="page3">Chipotle Portobello Mushroom Tacos (Vegan!)</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/cabbage-stir-fry/" class="menu-item" data-page="page3">Cabbage Stir Fry</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/whole-roasted-cauliflower-with-tahini-sauce/" class="menu-item" data-page="page3">Whole Roasted Cauliflower with Tahini Sauce</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/crispy-bbq-tofu-sandwich-with-slaw/" class="menu-item" data-page="page3">Crispy BBQ Tofu Sandwich with Slaw</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/vegetable-biryani/" class="menu-item" data-page="page3">Vegetable Biryani</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/coconut-rice-bowls/" class="menu-item" data-page="page3">Coconut Rice Bowls</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/frankies-aka-bombay-burritos/" class="menu-item" data-page="page3">Frankies! (aka Bombay Burritos)</a>
+        <a href="https://goodfoodmood0.wpcomstaging.com/lentil-bolognese/" class="menu-item" data-page="page3"> Lentil Bolognese</a>
+    </nav>
+
     <footer>
         <p>Enjoy your delicious meals all week long!</p>
     </footer>
-
+    <a href="https://goodfoodmood0.wpcomstaging.com/lentil-bolognese/" class="menu-item" data-page="page3"> Lentil Bolognese</a>
     <script src="script.js"></script>
-
 </body>
 </html>
