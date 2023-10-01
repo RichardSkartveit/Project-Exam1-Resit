@@ -1,4 +1,3 @@
-
 /* Body */
 body {
     margin: 0;
@@ -6,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #D2B48C; /* Light brown background color */
     color: #333; /* Dark text color */
+}
 
 /* Header */
 .header {
@@ -46,12 +46,14 @@ body {
 }
 
 .left-image {
+    flex-basis: 30%;
     max-width: 30%;
     margin-right: 20px;
 }
 
 .text-right {
     flex-grow: 1;
+    max-width: 70%; /* Adjust the width of the text content */
 }
 
 .text-right h2 {
@@ -62,7 +64,7 @@ body {
 
 /* Recipe Section */
 .section {
-    text-align: center;
+    text-align: right;
     padding: 20px;
 }
 
@@ -78,7 +80,6 @@ body {
     text-align: center;
 }
 
-
 .recipe-box {
     display: flex;
     flex-direction: column;
@@ -92,6 +93,7 @@ body {
     max-width: 400px;
     margin: 0 auto; 
 }
+
 .recipe-box:hover {
     transform: scale(1.03);
 }
@@ -99,51 +101,6 @@ body {
 .recipe-box img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.recipe-box h3 {
-    margin-top: 10px;
-    font-size: 1.2rem;
-}
-
-/* Footer */
-f
-
-/* Recipe Section */
-.section {
-    text-align: center;
-    padding: 20px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.image {
-    flex-basis: 30%;
-    margin: 10px;
-    text-align: center;
-}
-
-/* Add styles for the recipe box */
-.recipe-box {
-    border: 1px solid #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #1f1b1b;
-    transition: transform 0.2s;
-}
-
-.recipe-box:hover {
-    transform: scale(1.03);
-}
-
-.recipe-box img {
-    max-width: 50%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -169,347 +126,22 @@ f
     font-size: 1rem;
     margin-top: 10px;
 }
-/* QandA page */
 
-body{
-font-family: Arial, sans-serif;
-background-color: #f7f7f7;
-margin: 0;
-padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-.h1 {
-    font-size: 2rem;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.qa {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.qa .questions {
-    font-size: 1.2rem;
-    color: #333;
-}
-
-.qa .answer {
-    font-size: 1rem;
-    color: #666;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Subsribe page */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 2rem;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.subscribe-sheet {
-    text-align: center;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    font-size: 1rem;
-}
-
-input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ddd;
-    border-radius: 1rem;
-}
-
-button:hover {
-    background-color: #555;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* Verifypage */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-h1 {
-    color: #333;
-    font-size: 2rem;
-    margin-top: 30px;
-}
-
-p {
-    color: #666;
-    font-size: 1.2rem;
-}
-
-.gif-image {
-    margin-top: 20px;
-}
-
-/* About page */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 2rem;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.owner {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: transform 0.2s;
-}
-
-.owner:hover {
-    transform: scale(1.05);
-}
-
-.owner img {
-    max-width: 100%;
-    border-radius: 50%; 
-    margin: 10px auto;
-    display: block;
-}
-
-.owner h2 {
-    font-size: 1.5rem;
-    color: #333;
-    text-align: center;
-}
-
-.owner p {
-    font-size: 1rem;
-    color: #666;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    font-size: 1.2rem;
-}
-
-
-footer p:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-/* Recipes page */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 2rem;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.recipe {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: transform 0.2s;
-}
-
-.recipe:hover {
-    transform: scale(1.03);
-}
-
-.recipe img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.recipe h2 {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.recipe p {
-    font-size: 1rem;
-    color: #666;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    font-size: 1.2rem;
-}
-
-/* Add hover effect to the footer message */
-footer p:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.home-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    background-color: #832323;
-    color: #fff;
-    font-size: 2rem;
-    border-radius: 50%;
-}
-
-
-
-/* Media query for tablets  */
+/* Media query for tablets and smaller screens */
 @media (max-width: 768px) {
-    body {
-        font-size: 16px; 
-    }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 480px) {
-    .recipe.page {
-        display: flex;
+    .content {
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        font-size: 8px;
-    }
-
-    .recipe.page img {
-        max-width: 70%;
     }
     
     .left-image,
     .text-right {
-        margin: 0; 
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .recipe-box {
+        flex-basis: 30%;
     }
 }
