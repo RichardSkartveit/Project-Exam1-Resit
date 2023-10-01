@@ -93,3 +93,28 @@ footer p:hover {
     background-color: #171717; 
     color: #fff; 
 }
+
+/* Media query for tablets  */
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 16px; 
+    }
+
+   
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+   
+    .recipe.page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .recipe.page img {
+        max-width: 100%;
+    }
+}
